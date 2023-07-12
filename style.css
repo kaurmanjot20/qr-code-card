@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Nanum+Gothic+Coding&family=Outfit:wght@300&family=Zilla+Slab&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(220, 55%, 76%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.container{
+    background-color: #fff;
+    height: fit-content;
+    border-radius: 1.5rem;
+    
+}
+
+img{
+    display: inline-block;
+    padding: 2rem; 
+    width: 15rem;
+    border-radius: 3rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 15rem;
+    font-size: 15px;
+    text-align: center;
+}
+
+.maintxt{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.subtxt{
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    font-weight: 400;
+    color: hsl(213, 8%, 43%);
+}
+
+img:hover {
+    transform: scale(1.1);
+  }
+
+.attribute{
+    font-size: 9px;
+    padding-bottom: 1rem;
+ }
+
+
+ /* unvisited link */ 
+a:link{ 
+    text-decoration: none; 
+}
+
+/* hovered link*/ 
+a:hover{ 
+    color: rgb(141, 13, 139); 
+}
+
+/*active link*/ 
+a:active{ 
+    color: rgb(32, 85, 218); 
+}
+
+/*visited link*/ 
+a:visited{ 
+    color: rgb(60, 62, 202); 
+}
